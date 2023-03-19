@@ -1,7 +1,7 @@
 
-import './App.css';
-import Messages from './Messages';
-import React, { Component } from 'react';
+import "./App.css";
+import Messages from "./Messages";
+import React, { Component } from "react";
 
 
 
@@ -58,7 +58,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className='App'>
+      <div className="App">
         <Messages
           messages={this.state.messages}
           currentMember={this.state.member}
